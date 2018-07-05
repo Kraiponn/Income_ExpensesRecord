@@ -1,5 +1,4 @@
-# Income & Expenses Recording
-## Mini project บันทึกรายรับรายจ่าย
+# Income & Expenses Recording (บันทึกรายรับรายจ่าย)
 
 
 ### Login & Register
