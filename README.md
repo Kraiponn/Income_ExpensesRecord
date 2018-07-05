@@ -1,4 +1,4 @@
-### Income & Expenses Recording
+# Income & Expenses Recording
 #### Mini project บันทึกรายรับรายจ่าย
 
 
