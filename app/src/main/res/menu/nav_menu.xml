@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Social">
+        <menu>
+            <item
+                android:id="@+id/nav_shared"
+                android:title="Shared"
+                android:icon="@drawable/ic_shared"/>
+            <item
+                android:id="@+id/nav_reviiew"
+                android:title="Review data"
+                android:icon="@drawable/ic_review"/>
+        </menu>
+    </item>
+    <item android:title="Configulation...">
+        <menu>
+            <item
+                android:id="@+id/nav_setting"
+                android:title="Setting"
+                android:icon="@drawable/ic_settings"/>
+            <item
+                android:id="@+id/nav_about"
+                android:title="About"
+                android:icon="@drawable/ic_homep"/>
+            <item
+                android:id="@+id/nav_other"
+                android:title="Other"
+                android:icon="@drawable/ic_help"/>
+        </menu>
+    </item>
+
+</menu>

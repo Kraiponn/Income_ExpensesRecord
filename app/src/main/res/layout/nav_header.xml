@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="180dp">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/bg_money1"
+        android:scaleType="centerCrop"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingTop="15dp"
+        android:paddingLeft="15dp">
+        <ImageView
+            android:id="@+id/img_logo"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:src="@drawable/profile_logo"
+            android:scaleType="centerCrop"/>
+        <TextView
+            android:id="@+id/tv_topic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="Income &amp; Expenses"
+            android:textSize="20sp"
+            android:textColor="#fff"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/tv_user_account"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="kraipon.na10@gmail.com"
+            android:textSize="18sp"
+            android:textColor="#fff"
+            android:textStyle="normal"/>
+    </LinearLayout>
+</RelativeLayout>

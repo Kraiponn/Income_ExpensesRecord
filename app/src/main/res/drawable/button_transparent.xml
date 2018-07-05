@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:enterFadeDuration="400"
+    android:exitFadeDuration="400">
+
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <padding
+                android:top="10dp" android:bottom="10dp"
+                android:left="30dp" android:right="30dp"/>
+            <solid android:color="@color/button_trasparent_press"/>
+            <corners android:radius="12dp"/>
+            <stroke android:color="#000"/>
+         </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <padding
+                android:top="10dp" android:bottom="10dp"
+                android:left="30dp" android:right="30dp"/>
+            <solid android:color="@color/button_transparent_normal"/>
+            <corners android:radius="12dp"/>
+            <stroke android:color="#000"/>
+        </shape>
+    </item>
+
+</selector>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".activity.RegisterActivity"
+    tools:showIn="@layout/activity_register">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="25dp">
+
+        <TextView
+            android:id="@+id/tv_register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_gravity="center"
+            android:text="Register Form"
+            android:textColor="#000"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textAllCaps="false"/>
+
+        <EditText
+            android:id="@+id/edt_register_userName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:drawableStart="@drawable/ic_account"
+            android:drawablePadding="10dp"
+            android:ems="12"
+            android:inputType="textPersonName"
+            android:imeOptions="actionNext"
+            android:background="@drawable/edit_shape"
+            android:hint="User Name:" />
+        <EditText
+            android:id="@+id/edt_register_password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:drawableStart="@drawable/ic_lock_outline"
+            android:drawablePadding="10dp"
+            android:layout_marginTop="20dp"
+            android:ems="12"
+            android:inputType="textPassword"
+            android:imeOptions="actionDone"
+            android:background="@drawable/edit_shape"
+            android:hint="Password:"/>
+
+        <Button
+            android:id="@+id/btn_register_confirm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="35dp"
+            android:text="Register"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@drawable/text_general_state"
+            android:background="@drawable/button_pink_state"/>
+
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>

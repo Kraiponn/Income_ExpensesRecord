@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".activity.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/bg_38"
+        android:scaleType="centerCrop"/>
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <LinearLayout
+                android:id="@+id/layout_login_form"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="50dp"
+                android:padding="25dp"
+                android:orientation="vertical"
+                android:background="#63dcd2d2">
+
+                <TextView
+                    android:id="@+id/tv_login"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="1dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="ลงชื่อ\nเพื่อเข้าใช้งาน"
+                    android:textColor="#000"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    android:textAllCaps="false"/>
+                <EditText
+                    android:id="@+id/edt_login_userName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableStart="@drawable/ic_account"
+                    android:drawablePadding="10dp"
+                    android:layout_marginTop="20dp"
+                    android:ems="12"
+                    android:inputType="textPersonName"
+                    android:imeOptions="actionNext"
+                    android:background="@drawable/edit_shape"
+                    android:hint="User Name:"/>
+                <EditText
+                    android:id="@+id/edt_login_password"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableStart="@drawable/ic_lock_outline"
+                    android:drawablePadding="10dp"
+                    android:layout_marginTop="20dp"
+                    android:ems="12"
+                    android:inputType="textPassword"
+                    android:imeOptions="actionDone"
+                    android:background="@drawable/edit_shape"
+                    android:hint="Password:"/>
+
+                <Button
+                    android:id="@+id/btn_login_confirm"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:text="ยืนยัน"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="@drawable/text_general_state"
+                    android:background="@drawable/button_transparent"/>
+
+                <TextView
+                    android:id="@+id/tv_login_to_register"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:layout_gravity="right"
+                    android:text="สมัครสมาชิก"
+                    android:textColor="@drawable/text_register_state"
+                    android:textSize="16sp"
+                    android:textStyle="bold|italic"
+                    android:textAllCaps="false"/>
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btn_login_scan_code"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="35dp"
+                android:text="ลงชื่อเข้าใช้โดย \nQR Code หรือ Barcode"
+                android:textAllCaps="false"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:padding="15dp"
+                android:background="@drawable/button_transparent"
+                android:textColor="@drawable/text_general_state"/>
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+</RelativeLayout>

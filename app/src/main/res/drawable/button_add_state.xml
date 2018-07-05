@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:enterFadeDuration="400"
+    android:exitFadeDuration="400">
+
+    <item android:state_pressed="true"
+        android:drawable="@drawable/ic_add_gray"/>
+    <item android:state_selected="true"
+        android:drawable="@drawable/ic_add_gray"/>
+    <item android:state_focused="true"
+        android:drawable="@drawable/ic_add_gray"/>
+    <item android:drawable="@drawable/ic_add_red"/>
+
+</selector>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>-->
+
+    <color name="colorPrimary">#00695C</color>
+    <color name="colorPrimaryDark">#004D40</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="button_pink_normal_state">#F50057</color>
+    <color name="button_pink_press_state">#80000000</color>
+    <color name="text_white_press_state">#80000000</color>
+    <color name="text_white_normal_state">#ffffffff</color>
+    <color name="button_trasparent_press">#dbd15f0f</color>
+    <color name="button_transparent_normal">#80000000</color>
+</resources>

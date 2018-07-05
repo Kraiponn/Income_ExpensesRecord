@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Recording Income&amp;Expenses</string>
+    <string name="action_settings">Settings</string>
+    <string name="open_menu">Open Menu</string>
+    <string name="close_menu">Close Menu</string>
+    <string name="title_activity_main_income_expense">บันทึกรายรับ-รายจ่าย</string>
+    <string name="title_activity_register">สมัครสมาชิก</string>
+    <string name="title_activity_income_expenses">View Income-Expenses</string>
+    <string name="title_activity_data_view_income_expense">ข้อมูลรายรับ-รายจ่าย</string>
+    <string name="title_activity_main_login">Recording Income&amp;Expenses</string>
+    <string name="title_activity_add_income_expenses">เพิ่มข้อมูล</string>
+</resources>

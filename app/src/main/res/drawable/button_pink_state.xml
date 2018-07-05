@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:enterFadeDuration="400"
+    android:exitFadeDuration="400">
+
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <corners android:radius="12dp"/>
+            <solid android:color="@color/button_pink_press_state"/>
+            <padding
+                android:top="7dp" android:bottom="7dp"
+                android:left="30dp" android:right="30dp"/>
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="12dp"/>
+            <solid android:color="@color/button_pink_normal_state"/>
+            <padding
+                android:top="7dp" android:bottom="7dp"
+                android:left="30dp" android:right="30dp"/>
+        </shape>
+    </item>
+
+</selector>
