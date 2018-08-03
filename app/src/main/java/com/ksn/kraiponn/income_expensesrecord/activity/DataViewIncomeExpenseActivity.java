@@ -47,8 +47,8 @@ public class DataViewIncomeExpenseActivity extends AppCompatActivity {
     private IncomeExpensesAdapter mAdapter;
 
     private final String[] mMonthEn =  {
-            "มกราคม", "กุมภาพันธ์", "มีนาคม",
-            "เมษายน", "พฤษภาคม", "มิถุนายนต์", "กรกฎาคม",
+            "มกราคม", "กุมภาพันธ์", "มีนาคม", "เมษายน",
+            "พฤษภาคม", "มิถุนายนต์", "กรกฎาคม", "สิงหาคม",
             "กันยายน", "ตุลาคม", "พฤษจิกายน",
             "ธันวาคม"
     };
